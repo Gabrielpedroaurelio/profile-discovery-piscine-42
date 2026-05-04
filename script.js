@@ -1,12 +1,16 @@
 const profileSection = document.getElementById("profile")
+const HeroSection = document.getElementById("hero")
 const btnProfile = [...document.getElementsByClassName("profilebtn")]
 
 btnProfile.forEach((btn) => {
     btn.addEventListener("click", () => {
         if (btn.innerHTML === "ggary") {
-            ScrollToProfile(1)
-        } else {
             ScrollToProfile(0)
+
+        } else {
+
+
+            ScrollToProfile(1)
 
         }
 
@@ -28,6 +32,14 @@ function ScrollToProfile(index) {
 async function GetProfileData(userIndex = 0) {
     let userData = await getData()
     console.log(userData);
-    
-   // profileSection.textContent = 
+
+    // profileSection.textContent = 
 }
+function bloquearScroll(e) {
+    e.preventDefault(); // impede o scroll
+}
+/*
+window.addEventListener("load", () => {
+    HeroSection.scrollIntoView({ behavior: 'smooth', block: "start" })
+})
+window.addEventListener('wheel', bloquearScroll, { passive: false });*/

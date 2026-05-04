@@ -1,0 +1,63 @@
+[
+    {
+        "userAbout": {
+            "userName": "ggary",
+            "userEmail": "ggary@student.42luanda.com",
+            "userImg": "",
+            "userDescription": "I'm Gabriel Pedro Aurélio, a final-year high school student in the Computer Management course. Aspiring Backend Engineer, IT enthusiast, and naturally curious",
+            "userJob": "Backend Developer Junior"
+        },
+        "userExperience": {
+            "Backend": [
+                "NodeJs",
+                "TypeScipt",
+                "PHP"
+            ],
+            "Frontend": [
+                "HTML",
+                "CSS3",
+                "JavaScript",
+                "Tailwind CSS"
+            ],
+            "DBA": [
+                "PostgreSql",
+                "Mysql"
+            ]
+        },
+        "userContact": {}
+    },
+    {
+        "userAbout": {
+            "userName": "mmavungo",
+            "userEmail": "mmavungo@student.42luanda.com",
+            "userImg": "",
+            "userDescription": "I'm Marciano Mavungo, a security enginner specialized in penetration testing. I help individuals uncover and fix weaknesses in their systems, networks and applications by thinking like an attacker"
+        },
+        "userExperience": {
+            "Languages": [
+                "Python",
+                "Lua",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "Developers Tools": [
+                "Neovim",
+                "Arch Linux"
+            ],
+            "DevOps & Cloud": [
+                "Git",
+                "GitHub",
+                "Linux",
+                "Vercel"
+            ]
+        },
+        "userContact": {
+            "social1":["logo", "link"],
+            "social2":["logo", "link"],
+            "social3":["logo", "link"],
+            "social4":["logo", "link"]
+            
+        }
+    }
+]

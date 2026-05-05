@@ -105,7 +105,24 @@ main section.hero div.background div.content {}
     display: flex;
     align-items: center;
     gap: .25rem;
-    border: thin solid #5e5e5e;
+    border: thin solid #272727;
     border-radius: .25rem;
     padding: .5rem;
+    background-color: #0a0a0a;
+}
+
+.link:hover {
+    background-color: #272727;
+}
+
+.card {
+    width: 39rem;
+    height: 12rem;
+    box-shadow:#464646;
+    border: thin solid #272727;
+    background-color: #080808;
+}
+
+.gray {
+    color: #979797;
 }

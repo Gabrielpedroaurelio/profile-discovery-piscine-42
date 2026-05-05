@@ -196,6 +196,8 @@ main section.profile .experiences-skills .cardDetails .title {
 
 main section.profile .experiences-skills .cardDetails p {
     color: #444;
+.link:hover {
+    background-color: #1d1d1d;
 }
 
 main section.profile .experiences-skills .cardDetails .tools {

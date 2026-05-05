@@ -3,25 +3,108 @@
         "userAbout": {
             "userName": "ggary",
             "userEmail": "ggary@student.42luanda.com",
-            "userImg": "",
+            "userImg": "https://static.wikia.nocookie.net/amazons-the-boys/images/0/09/ComicHomelander.png/revision/latest?cb=20240610024351",
             "userDescription": "I'm Gabriel Pedro Aurélio, a final-year high school student in the Computer Management course. Aspiring Backend Engineer, IT enthusiast, and naturally curious",
             "userJob": "Backend Developer Junior"
         },
-        "userExperience": {
+        "userExperience": [
+            {
+                "title": "DBA",
+                "description": "A mid-level DBA experienced in managing large-scale environments using PostgreSQL, MySQL, and Redis, with a focus on performance, high availability, and reliable data solutions in enterprise projects.",
+                "tools": [
+                    "PostgreSQL",
+                    "Mysql",
+                    "Redis"
+                ]
+            },
+            {
+                "title": "Backend Engenner",
+                "description": "A mid-level Backend Engineer experienced in building scalable applications using TypeScript, Node.js, and Angular, with a focus on performance, clean architecture, and reliable solutions in enterprise projects.",
+                "tools": [
+                    "TypeScript",
+                    "Node.js",
+                    "Angular"
+                ]
+            },
+            {
+                "title": "DevOps Engineer",
+                "description": "A mid-level DevOps Engineer focused on automating infrastructure, CI/CD pipelines, and system reliability. Experienced with cloud environments, containerization, and monitoring solutions to ensure scalable and resilient deployments.",
+                "tools": [
+                    "Docker",
+                    "Kubernetes",
+                    "Jenkins",
+                    "GitHub Actions",
+                    "Terraform",
+                    "Linux"
+                ]
+            },
+            {
+                "title": "Cloud Engineer",
+                "description": "A mid-level Cloud Engineer specialized in designing, deploying, and managing cloud infrastructure on major platforms. Focused on scalability, security, and cost optimization in distributed systems.",
+                "tools": [
+                    "AWS",
+                    "Azure",
+                    "Google Cloud Platform",
+                    "Terraform",
+                    "CloudFormation",
+                    "Linux"
+                ]
+            },
+            {
+                "title": "AI Engineer",
+                "description": "A mid-level AI Engineer experienced in developing and deploying machine learning models and AI-driven applications. Focused on data pipelines, model training, and integrating AI solutions into production systems.",
+                "tools": [
+                    "Python",
+                    "TensorFlow",
+                    "PyTorch",
+                    "Scikit-learn",
+                    "Pandas",
+                    "NumPy"
+                ]
+            }
+        ],
+        "userSkills": {
             "Backend": [
-                "NodeJs",
-                "TypeScipt",
-                "PHP"
+                [
+                    "NodeJs",
+                    60
+                ],
+                [
+                    "TypeScipt",
+                    54
+                ],
+                [
+                    "PHP",
+                    65
+                ]
             ],
             "Frontend": [
-                "HTML",
-                "CSS3",
-                "JavaScript",
-                "Tailwind CSS"
+                [
+                    "HTML",
+                    89
+                ],
+                [
+                    "CSS3",
+                    79
+                ],
+                [
+                    "JavaScript",
+                    80
+                ],
+                [
+                    "Tailwind CSS",
+                    30
+                ]
             ],
             "DBA": [
-                "PostgreSql",
-                "Mysql"
+                [
+                    "PostgreSql",
+                    87
+                ],
+                [
+                    "Mysql",
+                    80
+                ]
             ]
         },
         "userContact": {}
@@ -30,10 +113,35 @@
         "userAbout": {
             "userName": "mmavungo",
             "userEmail": "mmavungo@student.42luanda.com",
-            "userImg": "",
-            "userDescription": "I'm Marciano Mavungo, a security enginner specialized in penetration testing. I help individuals uncover and fix weaknesses in their systems, networks and applications by thinking like an attacker"
+            "userImg": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/aizen.jpg?w=1600&h=900&fit=crop",
+            "userDescription": "I'm Marciano Mavungo, a security enginner specialized in penetration testing. I help individuals uncover and fix weaknesses in their systems, networks and applications by thinking like an attacker",
+            "userJob": "Cyber Security"
         },
-        "userExperience": {
+        "userExperience": [
+            {
+                "title": "Expre 01",
+                "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
+                "tools": [
+                    "Python",
+                    "LangChain",
+                    "Docker",
+                    "JavaScript",
+                    "REact"
+                ]
+            },
+            {
+                "title": "Projecto 01",
+                "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
+                "tools": [
+                    "Python",
+                    "LangChain",
+                    "Docker",
+                    "JavaScript",
+                    "REact"
+                ]
+            }
+        ],
+        "userSkills": {
             "Languages": [
                 "Python",
                 "Lua",
@@ -53,11 +161,22 @@
             ]
         },
         "userContact": {
-            "social1":["logo", "link"],
-            "social2":["logo", "link"],
-            "social3":["logo", "link"],
-            "social4":["logo", "link"]
-            
+            "social1": [
+                "logo",
+                "link"
+            ],
+            "social2": [
+                "logo",
+                "link"
+            ],
+            "social3": [
+                "logo",
+                "link"
+            ],
+            "social4": [
+                "logo",
+                "link"
+            ]
         }
     }
 ]

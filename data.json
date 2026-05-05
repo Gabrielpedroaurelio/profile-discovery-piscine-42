@@ -9,13 +9,58 @@
         },
         "userExperience": [
             {
-                "title": "Expre 01",
-                "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
-                "tools": ["Python","LangChain","Docker","JavaScript","REact"]
-            },    {
-                "title": "Projecto 01",
-                "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
-                "tools": ["Python","LangChain","Docker","JavaScript","REact"]
+                "title": "DBA",
+                "description": "A mid-level DBA experienced in managing large-scale environments using PostgreSQL, MySQL, and Redis, with a focus on performance, high availability, and reliable data solutions in enterprise projects.",
+                "tools": [
+                    "PostgreSQL",
+                    "Mysql",
+                    "Redis"
+                ]
+            },
+            {
+                "title": "Backend Engenner",
+                "description": "A mid-level Backend Engineer experienced in building scalable applications using TypeScript, Node.js, and Angular, with a focus on performance, clean architecture, and reliable solutions in enterprise projects.",
+                "tools": [
+                    "TypeScript",
+                    "Node.js",
+                    "Angular"
+                ]
+            },
+            {
+                "title": "DevOps Engineer",
+                "description": "A mid-level DevOps Engineer focused on automating infrastructure, CI/CD pipelines, and system reliability. Experienced with cloud environments, containerization, and monitoring solutions to ensure scalable and resilient deployments.",
+                "tools": [
+                    "Docker",
+                    "Kubernetes",
+                    "Jenkins",
+                    "GitHub Actions",
+                    "Terraform",
+                    "Linux"
+                ]
+            },
+            {
+                "title": "Cloud Engineer",
+                "description": "A mid-level Cloud Engineer specialized in designing, deploying, and managing cloud infrastructure on major platforms. Focused on scalability, security, and cost optimization in distributed systems.",
+                "tools": [
+                    "AWS",
+                    "Azure",
+                    "Google Cloud Platform",
+                    "Terraform",
+                    "CloudFormation",
+                    "Linux"
+                ]
+            },
+            {
+                "title": "AI Engineer",
+                "description": "A mid-level AI Engineer experienced in developing and deploying machine learning models and AI-driven applications. Focused on data pipelines, model training, and integrating AI solutions into production systems.",
+                "tools": [
+                    "Python",
+                    "TensorFlow",
+                    "PyTorch",
+                    "Scikit-learn",
+                    "Pandas",
+                    "NumPy"
+                ]
             }
         ],
         "userSkills": {
@@ -72,15 +117,28 @@
             "userDescription": "I'm Marciano Mavungo, a security enginner specialized in penetration testing. I help individuals uncover and fix weaknesses in their systems, networks and applications by thinking like an attacker",
             "userJob": "Cyber Security"
         },
-         "userExperience": [
+        "userExperience": [
             {
                 "title": "Expre 01",
                 "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
-                "tools": ["Python","LangChain","Docker","JavaScript","REact"]
-            },    {
+                "tools": [
+                    "Python",
+                    "LangChain",
+                    "Docker",
+                    "JavaScript",
+                    "REact"
+                ]
+            },
+            {
                 "title": "Projecto 01",
                 "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
-                "tools": ["Python","LangChain","Docker","JavaScript","REact"]
+                "tools": [
+                    "Python",
+                    "LangChain",
+                    "Docker",
+                    "JavaScript",
+                    "REact"
+                ]
             }
         ],
         "userSkills": {

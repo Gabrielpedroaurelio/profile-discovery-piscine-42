@@ -12,7 +12,7 @@
 main {
     height: 100dvh;
     max-width: 100dvw;
-
+    overflow: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -29,6 +29,8 @@ main section {
 main section.hero {
 
     background-image: url(https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1920&q=80&fit=crop);
+    height: 100vh;
+
 }
 
 main section.hero div.background {
@@ -86,14 +88,21 @@ main section.hero div.background div.content button {
 }
 
 main section.profile {
-
+  
     display: flex;
     flex-direction: column;
     justify-items: center;
 
     padding-left: 300px;
     padding-right: 300px;
+    overflow-y: scroll;
+    height: 100vh;
 
+   
+}
+
+main section.profile::-webkit-scrollbar {
+   
 }
 
 main section.profile .about {
@@ -285,5 +294,5 @@ main section.profile .experiences-skills .skills .container .list-skill>.skill .
     width: 90%;
     height: 10px;
     background-image: linear-gradient(to right, #00eeff, #c9a7ff 40%, #00eeff);
-    
+
 }

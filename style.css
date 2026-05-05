@@ -88,12 +88,5 @@ main section.hero div.background div.content {}
 
 .icon:hover svg {
     stroke: #00eeff; 
-}
-
-.icon:hover {
-    background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #00eeff, #c9a7ff 40%, #00eeff);
     transform: scale(1.2);
 }
-

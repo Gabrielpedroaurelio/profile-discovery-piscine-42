@@ -6,7 +6,6 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-
 }
 
 main {
@@ -27,7 +26,6 @@ main section {
 }
 
 main section.hero {
-
     background-image: url(https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1920&q=80&fit=crop);
     height: 100vh;
 
@@ -37,11 +35,9 @@ main section.hero div.background {
     max-width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to bottom, #000000a2, #000000);
-
 }
 
 main section.hero div.background div.content {
-
     width: 70%;
     margin: 200px auto 50px auto;
     text-align: center;
@@ -49,18 +45,13 @@ main section.hero div.background div.content {
     box-shadow: 0px 0px 50px #00121333;
     outline-color: color-mix(in oklab, #00cfd1 50%, transparent);
     position: relative;
-
 }
 
 
 main section.hero div.background div.content h1 {
     font-size: 50pt;
-
     font-weight: 800;
     text-align: center;
-
-
-
 }
 
 main section.hero div.background div.content h1 span {

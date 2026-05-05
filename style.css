@@ -18,7 +18,7 @@ body::-webkit-scrollbar{
 }
 
 main section {
-    width: 100%;
+    width: 100%;primary
     min-height: 100%;
     max-height: max-content;
 }
@@ -81,7 +81,7 @@ main section.hero div.background div.content {}
 
 
 .icon {
-    color: white;
+    width: 2rem;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
 }
@@ -89,4 +89,23 @@ main section.hero div.background div.content {}
 .icon:hover svg {
     stroke: #00eeff; 
     transform: scale(1.2);
+}
+
+.rainbow {
+    color: transparent;
+    background-image: linear-gradient(to right, #00eeff, #c9a7ff 40%, #00eeff);
+    background-clip: text;
+}
+
+#contacts {
+    height: 100vh;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    border: thin solid #5e5e5e;
+    border-radius: .25rem;
+    padding: .5rem;
 }

@@ -5,7 +5,9 @@
             "userEmail": "ggary@student.42luanda.com",
             "userImg": "https://static.wikia.nocookie.net/amazons-the-boys/images/0/09/ComicHomelander.png/revision/latest?cb=20240610024351",
             "userDescription": "I'm Gabriel Pedro Aurélio, a final-year high school student in the Computer Management course. Aspiring Backend Engineer, IT enthusiast, and naturally curious",
-            "userJob": "Backend Developer Junior"
+            "userJob": "Backend Developer Junior",
+            "linkedin":"https://www.linkedin.com/in/gabriel-aurelio",
+            "github":"https://github.com/Gabrielpedroaurelio"
         },
         "userExperience": [
             {
@@ -114,30 +116,33 @@
             "userName": "mmavungo",
             "userEmail": "mmavungo@student.42luanda.com",
             "userImg": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/aizen.jpg?w=1600&h=900&fit=crop",
-            "userDescription": "I'm Marciano Mavungo, a security enginner specialized in penetration testing. I help individuals uncover and fix weaknesses in their systems, networks and applications by thinking like an attacker",
-            "userJob": "Cyber Security"
+            "userDescription": "I'm Marciano Mavungo, a security enginner specialized in penetration testing. I help individuals uncover and fix weaknesses in their systems, networks and applications by thinking like an attacker.",
+            "userJob": "Security Engineer | Penetration Tester",
+            "linkedin":"https://linkedin.com/in/marcianomavungo",
+            "github":"https://github.com/marcmav"
+
         },
         "userExperience": [
             {
-                "title": "Expre 01",
-                "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
+                "title": "Freelancer",
+                "description": "Launched over 3 custom websites for individuals across diverse industries with a 100% client satisfaction rate, and improved website load speeds by up to 60% through optimization and performance tuning using plain vanilla JavaScript.",
                 "tools": [
-                    "Python",
-                    "LangChain",
-                    "Docker",
                     "JavaScript",
-                    "REact"
+                    "HTML",
+                    "CSS",
+                    "Tailwind",
+                    "Vite"
                 ]
             },
             {
-                "title": "Projecto 01",
-                "description": "An enterprise LLM chatbot platform with multi-model orchestration, RAG pipelines, andreal-time streaming. Handles 50k+ concurrent conversations.",
+                "title": "Penetration Tester",
+                "description": "Conducted 15+ penetration tests across finance, healthcare, and e-commerce, uncovering critical vulnerabilities and improving system security through detailed reporting and remediation guidance.",
                 "tools": [
                     "Python",
-                    "LangChain",
-                    "Docker",
-                    "JavaScript",
-                    "REact"
+                    "Lua",
+                    "Linux",
+                    "Nmap",
+                    "MetaSploit"
                 ]
             }
         ],
@@ -159,24 +164,7 @@
                 "Linux",
                 "Vercel"
             ]
-        },
-        "userContact": {
-            "social1": [
-                "logo",
-                "link"
-            ],
-            "social2": [
-                "logo",
-                "link"
-            ],
-            "social3": [
-                "logo",
-                "link"
-            ],
-            "social4": [
-                "logo",
-                "link"
-            ]
         }
+        
     }
 ]

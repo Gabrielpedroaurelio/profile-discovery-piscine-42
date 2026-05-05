@@ -7,6 +7,9 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 main {
     height: 100dvh;
@@ -28,6 +31,7 @@ main section {
 main section.hero {
     background-image: url(https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=1920&q=80&fit=crop);
     height: 100vh;
+    z-index: 1000;
 
 }
 
@@ -88,6 +92,7 @@ main section.profile {
     padding-right: 300px;
     overflow-y: scroll;
     height: 100vh;
+    position: relative;
 
    
 }
@@ -288,4 +293,55 @@ main section.profile .experiences-skills .skills .container .list-skill>.skill .
     height: 10px;
     background-image: linear-gradient(to right, #00eeff, #c9a7ff 40%, #00eeff);
 
+}
+
+
+
+
+
+.icon {
+    width: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover svg {
+    stroke: #00eeff; 
+    transform: scale(1.2);
+}
+
+.rainbow {
+    color: transparent;
+    background-image: linear-gradient(to right, #00eeff, #c9a7ff 40%, #00eeff);
+    background-clip: text;
+}
+
+#contacts {
+    height: 100vh;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    border: thin solid #272727;
+    border-radius: .25rem;
+    padding: .5rem;
+    background-color: #0a0a0a;
+}
+
+.link:hover {
+    background-color: #1d1d1d;
+}
+
+.card {
+    width: 39rem;
+    height: 12rem;
+    box-shadow:#464646;
+    border: thin solid #272727;
+    background-color: #080808;
+}
+
+.gray {
+    color: #979797;
 }
